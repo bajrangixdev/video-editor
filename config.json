@@ -1,0 +1,59 @@
+{
+  "voice": "en-IN-NeerjaNeural",
+  "voice_rate": "+0%",
+  "whisper_model": "base",
+  "final": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "crf": 15,
+    "preset": "slow"
+  },
+  "preview": {
+    "width": 1280,
+    "height": 720,
+    "fps": 30,
+    "crf": 20,
+    "preset": "veryfast",
+    "mb_samples": 3
+  },
+  "beats": true,
+  "captions": true,
+  "hd": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "crf": 17,
+    "preset": "fast"
+  },
+  "uhd": {
+    "width": 2560,
+    "height": 1440,
+    "fps": 60,
+    "crf": 15,
+    "preset": "medium"
+  },
+  "effects": {
+    "motion_blur": true,
+    "mb_samples": 5,
+    "depth_of_field": true,
+    "parallax": true,
+    "bokeh": true,
+    "grain": 0.6
+  },
+  "photos": {
+    "auto_photos": true,
+    "photo_chance": 0.75
+  },
+  "audio": {
+    "sfx_volume": 1.0,
+    "reverb": 1.0,
+    "treat_voice": true,
+    "sfx_variation": true,
+    "music_enabled": true,
+    "music_volume": 0.14,
+    "loudness": -14,
+    "normalize": true
+  },
+  "caption_style": "karaoke"
+}
